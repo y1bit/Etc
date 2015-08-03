@@ -25,8 +25,6 @@ soup = BeautifulSoup(src)
 iframe = soup.source
 src2 = iframe['src']
 
-
-
 x = urllib.request.urlopen(src2)
 
 saveFile = open('DownloadFile.mp4','wb')
