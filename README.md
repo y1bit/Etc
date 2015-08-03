@@ -1,1 +1,1 @@
-# Etc
+python GetTumblrVideo.py [Tumblr URL]
